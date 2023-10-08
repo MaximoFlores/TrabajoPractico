@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.lasCartas {
+    display: flex;
+    justify-content: center;
+    gap: 1em;  
+}
+
+.text-cartas {
+    margin: 0;
+    text-align: center;   
+}
+
+.box-part3 {
+    width:  100%;
+    display: flex;
+}
+
+.box-part3-1 {
+    width: 50%;
+}
+
+.box-part3-2 {
+    background-color: rgb(57, 57, 57);
+    color: white;
+    padding-left: 1em;
+    padding-top: 1em;
+    font-size: 1rem;
+}
+
+.center {
+    justify-content: center;
+}
+
+.buttom-summit {
+    background-color: rgb(5, 194, 12);
+    color: white;
+    width: 50%;
+}
+
+footer {
+    /* linear-gradient(to right, #1B3743, #1F5271)*/
+    display: flex;
+    justify-content: center;
+    background-color:#1F5271 ;
+}
+
+.container-footer {
+    column-gap: 3rem;
+}
+
+.logo {
+    width: 150px;
+    height: 75px;
+}
+.box-text {
+    display: inline-flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-right: 8em;
+    margin-bottom: 8em;
+}
